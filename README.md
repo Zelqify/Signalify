@@ -1,2 +1,2 @@
 # Signalify
- Fast and secure alternative for Roblox Networking
+Easy and fast communication between modules. Still work in progress.
