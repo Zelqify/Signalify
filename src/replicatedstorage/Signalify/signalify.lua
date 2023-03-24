@@ -54,4 +54,8 @@ function Signalify.createSignals(signalList: { [string]: { string } }): { [strin
     return Signals
 end
 
+function Signalify.getSignal(signalName : string)
+    return Signal[signalName]
+end
+
 return Signalify

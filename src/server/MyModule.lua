@@ -11,12 +11,6 @@ function MyModule.Signalify.initialize()
     Signals = Signalify.createSignals({
         ["MyVeryFirstSignal"] = {}
     })
-    Signals.MyVeryFirstSignal:Fire("HELLO")
-end
-
-
-function MyModule.Signalify.MyVeryFirstSignal(...)
-    print(...)
 end
 
 return MyModule
